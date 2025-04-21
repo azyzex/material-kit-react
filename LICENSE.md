@@ -1,21 +1,47 @@
-MIT License
+# React Dashboard Application
 
-Copyright (c) 2021 Devias
+A modern, customizable admin dashboard built with [React](https://reactjs.org), [MUI](https://mui.com), and [Next.js](https://nextjs.org/). This project provides a robust foundation for building data-driven applications with a clean, responsive interface and modular architecture.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+## Features
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+- 📊 Interactive dashboard with real-time data visualization
+- 🔒 Secure authentication (sign in, sign up, password reset)
+- 👤 User and account management
+- 🧩 Modular, reusable components
+- 🎨 Customizable themes and layouts
+- ⚡ Fast, responsive, and mobile-friendly design
+- 🔌 Easy integration with APIs and third-party services
+
+## Pages
+
+- Dashboard
+- Customers
+- Integrations
+- Settings
+- Account
+- Sign In / Sign Up / Reset Password
+- 404 and error pages
+
+Project Structure :
+
+src/
+  app/
+    layout.tsx
+    page.tsx
+    auth/
+    dashboard/
+    errors/
+  components/
+    auth/
+    core/
+    dashboard/
+    layouts/
+  contexts/
+  hooks/
+  lib/
+  styles/
+  types/
+public/
+  assets/
+  favicon.png
